@@ -19,7 +19,7 @@ const Login = () => {
             (response)=>{
                 console.log(data)
                 if (response.data.status=="success") {
-                    alert("Add Successfully")
+                    alert("Successfully Loggedin")
                     
                 } else {
                     alert("Error")
